@@ -18,5 +18,5 @@ You can enable batch mode in the settings, which should cut the monetary cost, b
 2) Load a binary to analyze, preferably one with lots of annoying library functions statically compiled in
 3) Open the Binary Ninja settings, search for "ClaNaFu" or "api", and enter your Anthropic API key
 4) In the menu, click `Plugins -> analyze functions`
-5) Go get a cup of coffee, tea, beer, or milk: analysis takes about ~2-3 seconds per function
+5) Go get a cup of coffee, tea, beer, or milk: analysis takes about 2-3 seconds per function
 6) Enjoy your named functions!
