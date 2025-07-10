@@ -13,9 +13,10 @@ It uses Claude's API, so you must have an API key and enough Claude Buxx (TM) to
 You can enable batch mode in the settings, which should cut the monetary cost, but may increase the analysis times, as batch jobs are lower priority than normal API calls.
 
 ## Usage
+0) Make sure you have the Anthropic Python library installed for Binary Ninja. You can easily install it by clicking `View -> Command Palette`, typing/selecting `install python3 module`, typing `anthropic` into the message box, and clicking `install`
 1) Put clanafu.py in your Binary Ninja plugin folder and restart Binary Ninja
 2) Load a binary to analyze, preferably one with lots of annoying library functions statically compiled in
 3) Open the Binary Ninja settings, search for "ClaNaFu" or "api", and enter your Anthropic API key
-4) In the menu, click Plugins -> analyze functions
+4) In the menu, click `Plugins -> analyze functions`
 5) Go get a cup of coffee, tea, beer, or milk: analysis takes about ~2-3 seconds per function
 6) Enjoy your named functions!
